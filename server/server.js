@@ -23,9 +23,9 @@ var config = {
   dbServer: {
     protocol: 'http://',
     host: 'localhost:5984',
-    user: '',
-    password: '',
-    userDB: 'sl-users',
+    user: 'seb',
+    password: 'password',
+    userDB: 'ppw-users',
     couchAuthDB: '_users'
   },
   mailer: {
@@ -46,7 +46,7 @@ var config = {
   },
   userDBs: {
     defaultDBs: {
-      private: ['supertest']
+      private: ['ppw']
     }
   },
   providers: {

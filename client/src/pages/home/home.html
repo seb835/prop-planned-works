@@ -1,0 +1,22 @@
+<ion-header no-border>
+
+  <ion-navbar color="secondary">
+    <ion-title>
+      Planned Works
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="logout()"><ion-icon name="power"></ion-icon></button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content>
+
+  <ion-list>
+      <button ion-item *ngFor="let contract of contracts" (click)="contractSelected(contract)">
+        {{contract.title}}
+      </button>
+  </ion-list>
+
+</ion-content>
