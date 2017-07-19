@@ -17,7 +17,7 @@
       border-radius: 16px !important;
       padding-left: 10px !important;
       margin-bottom: 10px;
-      background-color: #f6f6f6;
+      background-color: #f8f8f8;
       opacity: 0.7;
       font-size: 0.9em;
     }
@@ -37,10 +37,14 @@
       margin: 0;
     }
 
-    .login-logo {
+    #login-logo {
       flex: 1;
       width: 75%;
       margin: 0 auto;
+    }
+
+    #app-title {
+      font-size: 2em;
     }
 
     .login-form {
@@ -48,7 +52,7 @@
     }
 
     .login-button {
-      width: 100%;
+      width: 94%;
       border-radius: 30px;
       font-size: 0.9em;
       background-color: map-get($colors,secondary);

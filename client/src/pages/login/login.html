@@ -24,8 +24,11 @@
 
 <ion-content padding>
 
-  <ion-row class="login-logo">
-    <ion-col><img (click)="openSettingsMenu()" src="assets/img/logo_main.jpg" /></ion-col>
+  <ion-row id="login-logo">
+    <ion-col>
+      <img (click)="openSettingsMenu()" src="assets/img/logo_main.jpg" />
+      <p id="app-title">Planned Works</p>
+    </ion-col>
   </ion-row>
 
   <ion-row class="login-form">
